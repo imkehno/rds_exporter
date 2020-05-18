@@ -1,10 +1,6 @@
 ---
 instances:
-  - instance: rds-aurora1
-    region: us-east-1
-  - instance: rds-aurora57
-    region: us-east-1
-  - instance: rds-mysql56
-    region: us-east-1
-  - instance: rds-mysql57
-    region: us-east-1
+  - instance: aa9luozxv5xf53.cucuivehhzof.eu-west-1.rds.amazonaws.com
+    region: eu-west-1
+  - instance: aa9luozxv5xf53.cucuivehhzof.eu-west-1.rds.amazonaws.com
+    region: eu-west-1
