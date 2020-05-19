@@ -58,7 +58,7 @@ docker:
 promu:
 	@GOOS=$(shell uname -s | tr A-Z a-z) \
 	        GOARCH=$(subst x86_64,amd64,$(patsubst i%86,386,$(shell uname -m))) \
-	        $(GO) get -u github.com/prometheus/promu
+	        $(GO) get github.com/prometheus/promu
 
 travis: build test-race codecov tarball docker
 
